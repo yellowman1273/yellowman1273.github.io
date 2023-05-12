@@ -32,3 +32,9 @@ p
     font-weight: 400;
     font-style: normal;
 }
+
+a
+{
+    color: #ffcc00;
+    text-decoration: underline;
+}
