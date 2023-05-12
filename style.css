@@ -8,6 +8,12 @@ body
 
 h1
 {
-    color: #FFCC00;
+    color: #ffcc00;
+    font-family: "Lato", sans-serif;
+}
+
+p
+{
+    color: #ffffff;
     font-family: "Lato", sans-serif;
 }
