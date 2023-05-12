@@ -5,3 +5,8 @@ body
 {
     background-color: #000000;
 }
+
+h1
+{
+    font-family: 'Lato', sans-serif;
+}
