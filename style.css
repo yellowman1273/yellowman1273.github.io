@@ -33,6 +33,11 @@ p
     font-style: normal;
 }
 
+code
+{
+    background-color: #000000;
+}
+
 a
 {
     color: #ffcc00;
