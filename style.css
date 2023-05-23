@@ -33,11 +33,6 @@ p
     font-style: normal;
 }
 
-pre code.language-lua
-{
-    background-color: black !important;
-}
-
 a
 {
     color: #ffcc00;
