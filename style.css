@@ -33,7 +33,7 @@ p
     font-style: normal;
 }
 
-pre code
+pre code.language-lua
 {
     background-color: black !important;
 }
