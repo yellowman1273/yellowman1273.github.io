@@ -56,12 +56,34 @@ ul {
 a {
     color: #ffcc00;
     text-decoration: none;
-    border-bottom: 1px solid #1d1d1d;
+    border-bottom: 1px solid #242424;
     transition: border-bottom 0.3;
 }
 
 a:hover {
     border-bottom: 1px solid #ffcc00;
+}
+
+.external::after {
+    content: "";
+    position: relative;
+    margin-left: 6px;
+    margin-bottom: 3px;
+    display: inline-block;
+    transform: rotate(180deg);
+    width: 8px;
+    height: 8px;
+    z-index: 1;
+    border-bottom: 2px solid #242424;
+    border-left: 2px solid #242424;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.external:hover::after {
+    margin-bottom: 5px;
+    transform: rotate(180deg) translateX(-4px);
+    border-bottom: 2px solid #ffcc00;
+    border-left: 2px solid #ffcc00;
 }
 
 /* header */
@@ -74,7 +96,7 @@ a:hover {
     display: flex;
     align-items: center;
     height: 7em;
-    border-bottom: 1px solid #1d1d1d;
+    border-bottom: 1px solid #242424;
 }
 
 .header a {
@@ -87,7 +109,7 @@ a:hover {
     text-decoration: none;
     height: 2.35em;
     width: 4em;
-    border: 1px solid #1d1d1d;
+    border: 1px solid #242424;
     margin-top: -1px;
     margin-left: -1px;
     transition: all 0.1s;
@@ -126,6 +148,7 @@ a:hover {
     display: inline;
     font-weight: 300;
 }
+
 .has-arrow::after {
     content: "";
     position: absolute;
@@ -136,8 +159,8 @@ a:hover {
     width: 8px;
     height: 8px;
     z-index: 1;
-    border-bottom: 2px solid #1d1d1d;
-    border-left: 2px solid #1d1d1d;
+    border-bottom: 2px solid #242424;
+    border-left: 2px solid #242424;
     transition: all 0.5s cubic-bezier(0.19,1,0.22,1);
 }
 
